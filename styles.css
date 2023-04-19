@@ -1,0 +1,175 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost:wght@300&family=Noto+Sans+Display:wght@300&family=Schibsted+Grotesk&family=Source+Code+Pro&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+}   
+
+.container
+{
+    display: flex;
+}
+.navbar
+{
+    display: flex;
+    width:8vw;
+    font-family:'Times New Roman', Times, serif;
+    padding: 40px ;
+    height: 87vh;
+    background-color: slateblue;
+    }
+navbar ul
+{
+    display: flex;
+    }
+.navbar li{
+    font-family: 'Inter', sans-serif;
+ list-style: none;
+    font-size: 20px;
+    padding:15px 15px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+.mainbody{
+    
+    width:90vw;
+    margin:auto;
+}
+.intma
+{
+    display: flex;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    
+    height:70vh;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    
+}
+.hello
+{
+    font-size:40px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    color:white;
+}
+.name
+{
+font-size:35px;
+font-family: 'Source Code Pro', monospace;
+font-weight:bold;
+color:white;}
+.about
+{
+    font-size:35px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    color:white;
+}
+#but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height:50px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+
+#but a
+{
+    text-decoration: none;
+    color:black;
+}
+.main
+{
+    display: flex;
+    flex-direction: column-block;
+    align-items: center;
+    justify-content: center;
+    width:62vw;
+    height:100vh;
+}
+.input
+{
+ font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.form
+{
+    margin:10px;
+    border:2px solid rgb(80, 178, 235);
+    padding:12px;
+}
+.input
+{
+    font-size:18px;
+    font-weight: bold;
+    
+}
+input{
+    width:400px;
+    height:30px;
+}
+.heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    color:rgb(100, 86, 180);
+}
+#submit
+{
+    color:white;
+    width:130px;
+    background-color:blue;
+    border:none;
+    height:25px;
+    border-radius: 3px;
+}
+header{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width:100vw;
+    margin:12px;
+}
+.mainbody{
+    display: grid;
+}
+.size{
+    font-size: 30px;
+}
+.logo1 button{
+    font-size: 40px;
+    position: relative;
+    margin:-56px;
+    top: 90%;
+    background-color: slateblue;
+    border:none;
+    color: white;
+    }
+
+.logo2 button
+{
+    font-size: 40px;
+    position: relative;
+    margin:-56px;
+    top: 100%;
+    background-color: slateblue;
+    border:none;
+    color:white;
+    }
+body{
+    background-image: url("backg.png");
+}
+.content
+{
+    cursor:pointer;
+}
